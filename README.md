@@ -1,1 +1,3 @@
 # click_count
+
+One way search engines rank pages is to count the number of times a searcher clicks on a returned link. This indicates that the person doing the query thought this was a useful link for the query, so it should be higher in the rankings next time.  Modify the index such that for each url in a list for a keyword, there is also a number that counts the number of times a user clicks on that link for this keyword.  The result of lookup(index,keyword) should now be a list of url entries, where each url entry is a list of a url and a number indicating the number of times that url was clicked for this query keyword. You should define a new procedure to simulate user clicks for a given link.
